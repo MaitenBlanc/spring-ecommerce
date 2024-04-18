@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="Funcionalidad ver productos para el usuario (método home, directorio y template home.html)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/template_user.html" afterDir="false" />
+    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="template para el usuario">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/producthome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713482396632</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="template para el usuario">
+      <option name="closed" value="true" />
+      <created>1713483066581</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713483066581</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,6 +141,7 @@
     <MESSAGE value="Implementación para guardar la imagen del producto" />
     <MESSAGE value="Implementación de las funcionalidades de cargar imagen y mostrar imagen para el admin" />
     <MESSAGE value="Funcionalidad ver productos para el usuario (método home, directorio y template home.html)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funcionalidad ver productos para el usuario (método home, directorio y template home.html)" />
+    <MESSAGE value="template para el usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="template para el usuario" />
   </component>
 </project>
