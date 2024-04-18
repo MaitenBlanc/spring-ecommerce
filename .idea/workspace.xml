@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/service/UploadFileService.java" afterDir="false" />
+    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="Clase de servicio para subir una imagen al servidor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +85,19 @@
       <option name="presentableId" value="Default" />
       <updated>1713124305881</updated>
     </task>
+    <task id="LOCAL-00001" summary="Clase de servicio para subir una imagen al servidor">
+      <option name="closed" value="true" />
+      <created>1713471741462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713471741462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Clase de servicio para subir una imagen al servidor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase de servicio para subir una imagen al servidor" />
   </component>
 </project>
