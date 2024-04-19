@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="mostrar la vista del producto al usuario">
+    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="mostrar información del producto en la página productohome">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/producthome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/producthome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/template_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/template_user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713484040950</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mostrar información del producto en la página productohome">
+      <option name="closed" value="true" />
+      <created>1713485331178</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713485331178</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +159,7 @@
     <MESSAGE value="Funcionalidad ver productos para el usuario (método home, directorio y template home.html)" />
     <MESSAGE value="template para el usuario" />
     <MESSAGE value="mostrar la vista del producto al usuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="mostrar la vista del producto al usuario" />
+    <MESSAGE value="mostrar información del producto en la página productohome" />
+    <option name="LAST_COMMIT_MESSAGE" value="mostrar información del producto en la página productohome" />
   </component>
 </project>
