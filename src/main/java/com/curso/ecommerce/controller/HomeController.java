@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 @Controller
@@ -74,6 +75,33 @@ public class HomeController {
         model.addAttribute("cart", details);
         model.addAttribute("order", order);
 
+
+        return "user/cart";
+    }
+
+    // Quitar un producto del carrito
+    @GetMapping("/delete/cart/{id}")
+    public String deleteProductCart(@PathVariable Integer id,Model model) {
+
+        // Lista nueva de productos
+        List<OrderDetail> newOrders = new ArrayList<OrderDetail>();
+
+        for(OrderDetail orderDetail: details) {
+            if(!Objects.equals(orderDetail.getProduct().getId(), id)) {
+                newOrders.add(orderDetail);
+            }
+        }
+
+        // Poner la nueva lista con los productos restantes
+        details = newOrders;
+
+        double sumTotal = 0;
+
+        sumTotal = details.stream().mapToDouble(OrderDetail::getTotal).sum();
+
+        order.setTotal(sumTotal);
+        model.addAttribute("cart", details);
+        model.addAttribute("order", order);
 
         return "user/cart";
     }
