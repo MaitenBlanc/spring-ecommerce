@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="mostrar información del producto en la página productohome">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/cart.html" afterDir="false" />
+    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="redirección al carrito de compras">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/producthome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/producthome.html" afterDir="false" />
@@ -149,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713485331178</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="redirección al carrito de compras">
+      <option name="closed" value="true" />
+      <created>1713486028362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713486028362</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +167,7 @@
     <MESSAGE value="template para el usuario" />
     <MESSAGE value="mostrar la vista del producto al usuario" />
     <MESSAGE value="mostrar información del producto en la página productohome" />
-    <option name="LAST_COMMIT_MESSAGE" value="mostrar información del producto en la página productohome" />
+    <MESSAGE value="redirección al carrito de compras" />
+    <option name="LAST_COMMIT_MESSAGE" value="redirección al carrito de compras" />
   </component>
 </project>
