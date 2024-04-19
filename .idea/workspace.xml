@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="Añadir los productos al carrito de compras y mostrarlos en la vista cart">
+    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="Funcionalidad para eliminar un producto del carrito de compras">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/template_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/template_user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713488514036</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Funcionalidad para eliminar un producto del carrito de compras">
+      <option name="closed" value="true" />
+      <created>1713489607557</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713489607557</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -186,6 +196,7 @@
     <MESSAGE value="redirección al carrito de compras" />
     <MESSAGE value="Obtención de la cantidad y búsqueda del producto en el HomeController para añadir al carrito" />
     <MESSAGE value="Añadir los productos al carrito de compras y mostrarlos en la vista cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadir los productos al carrito de compras y mostrarlos en la vista cart" />
+    <MESSAGE value="Funcionalidad para eliminar un producto del carrito de compras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funcionalidad para eliminar un producto del carrito de compras" />
   </component>
 </project>
