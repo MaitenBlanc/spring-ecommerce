@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="Validación para doble producto y ver el carrito desde la cabecera del template del user menu opción carrito">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/orderresume.html" afterDir="false" />
+    <list default="true" id="81d9fe7f-7f4c-4fd9-b946-c46eb12f40e9" name="Changes" comment="Añadida la redirección a la vista orderresume">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/ecommerce/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/orderresume.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/orderresume.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713490737828</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Añadida la redirección a la vista orderresume">
+      <option name="closed" value="true" />
+      <created>1713491463612</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713491463612</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,6 +219,7 @@
     <MESSAGE value="Añadir los productos al carrito de compras y mostrarlos en la vista cart" />
     <MESSAGE value="Funcionalidad para eliminar un producto del carrito de compras" />
     <MESSAGE value="Validación para doble producto y ver el carrito desde la cabecera del template del user menu opción carrito" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validación para doble producto y ver el carrito desde la cabecera del template del user menu opción carrito" />
+    <MESSAGE value="Añadida la redirección a la vista orderresume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadida la redirección a la vista orderresume" />
   </component>
 </project>

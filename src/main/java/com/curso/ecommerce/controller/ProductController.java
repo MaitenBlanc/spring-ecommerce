@@ -2,7 +2,7 @@ package com.curso.ecommerce.controller;
 
 import com.curso.ecommerce.model.Product;
 import com.curso.ecommerce.model.User;
-import com.curso.ecommerce.service.ProductService;
+import com.curso.ecommerce.service.IProductService;
 import com.curso.ecommerce.service.UploadFileService;
 import org.slf4j.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +21,7 @@ public class ProductController {
     private final Logger logger = LoggerFactory.getLogger(ProductController.class);
 
     @Autowired
-    private ProductService productService;
+    private IProductService productService;
 
     @Autowired
     private UploadFileService upload;
