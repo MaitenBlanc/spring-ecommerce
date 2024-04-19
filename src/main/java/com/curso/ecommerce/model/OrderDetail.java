@@ -9,7 +9,7 @@ public class OrderDetail {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
-    private double amount;
+    private Integer amount;
     private double price;
     private double total;
 
@@ -21,7 +21,7 @@ public class OrderDetail {
 
     public OrderDetail(){}
 
-    public OrderDetail(Integer id, String name, double amount, double price, double total) {
+    public OrderDetail(Integer id, String name, Integer amount, double price, double total) {
         this.id = id;
         this.name = name;
         this.amount = amount;
@@ -49,7 +49,7 @@ public class OrderDetail {
         return amount;
     }
 
-    public void setAmount(double amount) {
+    public void setAmount(Integer amount) {
         this.amount = amount;
     }
 

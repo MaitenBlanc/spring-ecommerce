@@ -56,11 +56,11 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>Nombre</td>
-                            <td>Precio</td>
-                            <td>Cantidad</td>
-                            <td>Total</td>
+                        <tr th:each="dorder: ${cart}">
+                            <td th:text="${dorder.name}"></td>
+                            <td th:text="'$' + ${dorder.price}"></td>
+                            <td th:text="${dorder.amount}"></td>
+                            <td th:text="'$' + ${dorder.total}"></td>
                             <td><a href="#" class="btn btn-danger">Quitar</a></td>
                         </tr>
                         </tbody>
@@ -71,7 +71,7 @@
                     <h2 class="card-title">SUBTOTAL</h2>
 
                     <ul class="list-group">
-                        <li class="list-group-item"><h5>Total: $ 10</h5></li>
+                        <li class="list-group-item"><h5 th:text="'$' + ${order.total}"></h5></li>
                         <a href="resumenorden.html" class="btn btn-dark">Ver Orden</a>
                     </ul>
                 </div>
