@@ -117,4 +117,11 @@ public class HomeController {
         model.addAttribute("order", order);
         return "/user/cart";
     }
+
+    @GetMapping("/order")
+    public String order() {
+//        model.addAttribute("cart", details);
+//        model.addAttribute("order", order);
+        return "user/orderresume";
+    }
 }
